@@ -1,0 +1,52 @@
+
+.menu{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.link{
+    display: inline;
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: left;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 92, 70);
+    text-transform: uppercase;
+}
+
+        /* pseudo class - selector:pseudo-class{property:value;}*/
+a:hover{
+    color: rgba(39, 145, 126, 0.327);
+    font-size: 50px;
+}   
+
+body{
+    text-align: center;
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#photo{
+    margin-top: 100px;
+    border-radius: 2%;   
+}
+
+#name{
+    font-family: 'Prosto One', cursive;
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+}
